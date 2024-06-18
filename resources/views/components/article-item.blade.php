@@ -14,7 +14,15 @@
 
     <div class="mt-10 text-sm">
 
-        {{ $post->author }} / {{ $post->date->diffForHumans() }}
+        {{ $post->author }} 
+
+        <span>
+
+            &#183;
+
+        </span>
+
+         {{ $post->date->diffForHumans() }}
 
     </div>
 
