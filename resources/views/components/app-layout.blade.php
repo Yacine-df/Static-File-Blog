@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laravel</title>
+    <title>Blog</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
@@ -16,20 +16,20 @@
 
 </head>
 
-<body class="max-w-2xl mx-auto my-10">
+<body class="max-w-2xl mx-auto my-10 bg-red-200">
     <div>
         <h1 class="font-bold text-2xl">
 
-            <a href="/">
+            <a class="hover:text-blue-500 transition-colors delay-75" href="/">
 
-                Yacine's Blog
+                {{ config('app.name') }}
 
             </a>
 
         </h1>
 
 
-        <div>
+        <div class="my-12">
 
             {{ $slot }}
 
