@@ -42,7 +42,7 @@
 
                 <li class="text-sm font-medium">
 
-                    <a href=""
+                    <a href="{{ route('tags.show', ['tag'=> $tag]) }}"
                         class="text-blue-300 hover:text-blue-500 transition-colors delay-75 border rounded-xl px-3 py-1">
 
                         {{ Str::title($tag) }}
