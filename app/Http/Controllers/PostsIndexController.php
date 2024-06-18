@@ -13,7 +13,7 @@ class PostsIndexController extends Controller
 
         return view('posts.index', [
 
-            'posts' => Sheets::collection('posts')->all()
+            'posts' => Sheets::collection('posts')->all()->paginate(1)
 
         ]);
     }
