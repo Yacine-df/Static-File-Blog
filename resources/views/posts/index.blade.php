@@ -9,7 +9,7 @@
             </x-article-item>
         @endforeach
 
-        <div>
+        <div class="px-4">
 
             {{ $posts->links() }}
 
