@@ -18,7 +18,24 @@
 
 <body class="max-w-2xl mx-auto my-10">
     <div>
-        <h1 class="font-bold text-2xl">Yacine's Blog</h1>
+        <h1 class="font-bold text-2xl">
+
+            <a href="/">
+
+                Yacine's Blog
+
+            </a>
+
+        </h1>
+
+
+        <div>
+
+            {{ $slot }}
+
+        </div>
+
+
     </div>
 </body>
 
