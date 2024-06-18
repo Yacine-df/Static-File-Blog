@@ -1,5 +1,4 @@
-@props(['post'])
-
+@props(['post']) 
 <article {{ $attributes->merge(['class' => 'prose p-4']) }}>
 
     <h1>
@@ -13,17 +12,10 @@
     </h1>
 
 
-    <div class="py-4">
-
-        {{ $post->contents }}
-
-    </div>
-
-
     <div class="mt-10 text-sm">
 
         {{ $post->author }} / {{ $post->date->diffForHumans() }}
 
     </div>
 
-</article>
+    </article>

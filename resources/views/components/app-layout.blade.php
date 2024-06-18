@@ -16,7 +16,7 @@
 
 </head>
 
-<body class="max-w-2xl mx-auto my-10 bg-red-200">
+<body class="max-w-2xl mx-auto my-10">
     <div>
         <h1 class="font-bold text-2xl">
 
